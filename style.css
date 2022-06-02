@@ -1,0 +1,123 @@
+body{
+    font-family: sans-serif;
+    background-color: cadetblue;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 320%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: navy;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.padding {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+}
+
+button {
+    background-color:aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.galleryList {
+    list-style: none;
+    width: 100%;
+    background-color: #D4F0FD;
+    padding: 1%;
+    position: absolute;
+} 
+
+
+
+.image {
+    position: relative;
+}
+
+.meme {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.meme image {
+    display: flex;
+    margin: 1%;
+    /* height: flex;
+    width: flex; */
+    text-align: center;
+    max-width: 100%;
+    position: absolute;
+    z-index:2;
+}
+
+.image {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.topText {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 160%;
+    z-index:3;
+}
+
+.bottomText {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 160%;
+    z-index:3;
+}
+
+.button {
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    z-index: 4;
+    float:right;
+}
+
+.form {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.memeGallery {
+    list-style: none;
+    display: flex;
+}
